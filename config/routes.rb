@@ -1,4 +1,14 @@
 Web24studios::Application.routes.draw do
+  root to: 'static_pages#home'
+  
+  match 'services' => "static_pages#services"
+  match 'why-us' => "static_pages#why_us"
+  match 'pricing' => "static_pages#pricing" 
+  match 'contact' => "static_pages#contact"
+  
+  resources :posts
+  resources :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +58,6 @@ Web24studios::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
 
   # See how all your routes lay out with "rake routes"
 

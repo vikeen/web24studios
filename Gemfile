@@ -18,21 +18,21 @@ end
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'annotate', '2.5.0'
+  gem 'capybara'
+  gem 'childprocess'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'guard-rspec'
+  gem 'guard-spork'
+  gem 'rspec-rails'
+  gem 'spork'
 end
 
 group :development do
 end
 
 group :test do
-  gem 'capybara'
-  gem 'childprocess'
-  gem 'factory_girl_rails'
-  gem 'guard-rspec'
-  gem 'guard-spork'
-  gem 'libnotify'
-  gem 'rb-inotify'
-  gem 'rspec-rails'
-  gem 'spork'
+  gem 'cucumber-rails'
 end
 
 group :production do

@@ -11,6 +11,12 @@ end
 
 module Web24studios
   class Application < Rails::Application
+    
+    # default to rspec framework for all generators instead of the standard test_unit
+    config.generators do |g|
+      g.test_framework :rspec
+    end
+    
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
