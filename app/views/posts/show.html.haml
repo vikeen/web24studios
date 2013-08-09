@@ -1,4 +1,6 @@
 %h2 #{@post.title}
 %p Author: #{@post.user_id}
-    
 = @post.content
+
+= button_to 'Edit Post', edit_post_path(@post), { method: :get }
+= button_to 'Delete Post', @post, { method: :delete, data: { confirm: "Delete: #{@post.title}?" } }

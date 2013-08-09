@@ -1,1 +1,7 @@
+%h2 Blog
+- @posts.each do |post|
+  .post
+    %h3.post-title #{ link_to post.title, post }
+    .post-content #{post.content}
+
 = button_to 'Add New Post', new_post_path, { method: :get }
