@@ -1,13 +1,15 @@
 Web24studios::Application.routes.draw do
   root to: 'static_pages#home'
-  
-  match 'services' => "static_pages#services"
-  match 'why-us' => "static_pages#why_us"
-  match 'pricing' => "static_pages#pricing" 
-  match 'contact' => "static_pages#contact"
-  
+
+  match 'services' => 'static_pages#services'
+  match 'why_us' => 'static_pages#why_us'
+  match 'pricing' => 'static_pages#pricing'
+  match 'contact' => 'static_pages#contact'
+
   resources :posts
+  match 'blog' => 'posts#index'
   resources :users
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
