@@ -1,12 +1,72 @@
-Web Application Development
+Web24Studios
+Practical and effective web based solutions
 
-
-Website Design and Development
-
-Usability and User Interface
-
-Quality Assurance and Testing
-
-Maintenance and Support
-
-Dedicated Development Team
+Company
+  Overview
+    About the company
+      who the company is
+    what we do
+    Meet the Team
+      users on the team
+  Our Business Philosophies
+    Value
+    Identification
+    Partnership
+    Trusting Relationships
+  Why Us
+    one stop solution needs
+      design
+      application development
+      latest technologies and industry trends
+      expertise
+    full-cycle development services
+      requirements identifications
+      architecutre design
+      development coding
+      testing
+      client interaction for final design
+      live deployment
+      future follwup and maintenance
+    black box approach
+      reduce technology requirements for clients
+      easy and simple designs
+      effective process flows to integrate all phases of the design
+Servies
+  Web Application Development
+    functional
+    intelligent application architecture
+    reduced maintence costs
+    simple and portable production deployment
+  Website Design and Development
+    Look-and-Feel
+    Usability
+    Front-end functionality
+    Adminstration needs
+    Content management
+  Usability and User Interface
+    Focus Points
+      effectiveness
+      visibility
+      consistency
+    Prototyping
+      sitemaps
+      mockups
+      wireframes
+  Quality Assurance and Testing
+    Development Integrated Testing
+      BDD
+      TDD
+    Optimizing Performance
+      Accessibility Testing
+      Compatibility Testing
+      Performance Testing
+  Maintenance and Support
+    on going support
+      bug fixing
+      problem analysis and resolution
+      on-call support
+    adaptive enhancements
+      support business or technical requirements changes
+Portfolio
+Contact
+  Contact Info

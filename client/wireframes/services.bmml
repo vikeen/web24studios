@@ -1,0 +1,169 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="760" measuredH="1097" mockupW="732" mockupH="1072">
+  <controls>
+    <control controlID="120" controlTypeID="__group__" x="28" y="25" w="732" h="1072" measuredW="732" measuredH="1072" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="732" h="1072" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="120">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <text>Web24Studios%20%7C%20Services%0Ahttp%3A//web24studios.com/services</text>
+            <value>0</value>
+            <verticalScrollbar>true</verticalScrollbar>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::LinkBar" x="52" y="165" w="-1" h="-1" measuredW="243" measuredH="18" zOrder="1" locked="false" isInGroup="120">
+          <controlProperties>
+            <selectedIndex>-1</selectedIndex>
+            <size>12</size>
+            <text>Company%2C%20Services%2C%20Portfolio%2C%20Contact</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="52" y="189" w="613" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="120">
+          <controlProperties>
+            <stroke>solid</stroke>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::HRule" x="52" y="151" w="613" h="-1" measuredW="100" measuredH="10" zOrder="3" locked="false" isInGroup="120">
+          <controlProperties>
+            <stroke>solid</stroke>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Title" x="52" y="122" w="-1" h="-1" measuredW="162" measuredH="27" zOrder="4" locked="false" isInGroup="120">
+          <controlProperties>
+            <align>center</align>
+            <size>24</size>
+            <text>Web24Studios</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::SearchBox" x="545" y="123" w="-1" h="-1" measuredW="120" measuredH="25" zOrder="5" locked="false" isInGroup="120"/>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Title" x="52" y="241" w="385" h="-1" measuredW="114" measuredH="31" zOrder="6" locked="false" isInGroup="120">
+          <controlProperties>
+            <align>left</align>
+            <size>28</size>
+            <text>Services</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="__group__" x="52" y="1000" w="613" h="29" measuredW="613" measuredH="29" zOrder="7" locked="false" isInGroup="120">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="613" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="7">
+              <controlProperties>
+                <stroke>solid</stroke>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Link" x="577" y="10" w="-1" h="-1" measuredW="36" measuredH="19" zOrder="1" locked="false" isInGroup="7">
+              <controlProperties>
+                <text>Admin</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Link" x="0" y="10" w="-1" h="-1" measuredW="26" measuredH="19" zOrder="2" locked="false" isInGroup="7">
+              <controlProperties>
+                <text>Blog</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Paragraph" x="52" y="287" w="438" h="66" measuredW="200" measuredH="80" zOrder="8" locked="false" isInGroup="120">
+          <controlProperties>
+            <text>Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20Ut%20enim%20ad%20minim%20veniam%2C%20quis%20nostrud%20exercitation%20ullamco%20laboris%20nisi%20ut%20aliquip%20ex%20ea%20commodo%20consequat.</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Paragraph" x="52" y="967" w="561" h="18" measuredW="200" measuredH="80" zOrder="9" locked="false" isInGroup="120">
+          <controlProperties>
+            <color>2848996</color>
+            <text>Forwarding%20message%20to%20contact%20form%20to%20to%20get%20communications%20going</text>
+            <underline>true</underline>
+          </controlProperties>
+        </control>
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::SubTitle" x="530" y="246" w="98" h="-1" measuredW="74" measuredH="21" zOrder="10" locked="false" isInGroup="120">
+          <controlProperties>
+            <size>18</size>
+            <text>Services</text>
+          </controlProperties>
+        </control>
+        <control controlID="13" controlTypeID="com.balsamiq.mockups::Paragraph" x="515" y="272" w="150" h="172" measuredW="200" measuredH="80" zOrder="11" locked="false" isInGroup="120">
+          <controlProperties>
+            <text>*%20%5BWeb%20Application%20Development%5D%0A*%20%5BWebsite%20Design%20and%20Development%5D%0A*%20%5BUsability%20and%20User%20Interface%5D%0A*%20%5BQuality%20Assurance%20and%20Testing%5D%0A*%20%5BMaintence%20and%20Support%5D</text>
+          </controlProperties>
+        </control>
+        <control controlID="24" controlTypeID="__group__" x="52" y="503" w="599" h="429" measuredW="599" measuredH="429" zOrder="12" locked="false" isInGroup="120">
+          <groupChildrenDescriptors>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="11" y="3" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="2" locked="false" isInGroup="24">
+              <controlProperties>
+                <icon>StopIcon%7Clarge</icon>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="74" y="0" w="184" h="-1" measuredW="174" measuredH="56" zOrder="0" locked="false" isInGroup="24">
+              <controlProperties>
+                <text>%5BWeb%20Application%5CrDevelopment%5D</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="65" w="258" h="49" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="24">
+              <controlProperties>
+                <text>Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.</text>
+              </controlProperties>
+            </control>
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::SubTitle" x="397" y="0" w="202" h="-1" measuredW="190" measuredH="56" zOrder="3" locked="false" isInGroup="24">
+              <controlProperties>
+                <text>%5BWebsite%20Design%5Crand%20Development%5D</text>
+              </controlProperties>
+            </control>
+            <control controlID="5" controlTypeID="com.balsamiq.mockups::Paragraph" x="326" y="65" w="258" h="49" measuredW="200" measuredH="80" zOrder="4" locked="false" isInGroup="24">
+              <controlProperties>
+                <text>Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.</text>
+              </controlProperties>
+            </control>
+            <control controlID="6" controlTypeID="com.balsamiq.mockups::Icon" x="337" y="3" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="5" locked="false" isInGroup="24">
+              <controlProperties>
+                <icon>StopIcon%7Clarge</icon>
+              </controlProperties>
+            </control>
+            <control controlID="7" controlTypeID="com.balsamiq.mockups::SubTitle" x="74" y="158" w="184" h="-1" measuredW="162" measuredH="56" zOrder="6" locked="false" isInGroup="24">
+              <controlProperties>
+                <text>%5BUsability%20and%5CrUser%20Interface%5D</text>
+              </controlProperties>
+            </control>
+            <control controlID="8" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="223" w="258" h="49" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="24">
+              <controlProperties>
+                <text>Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.</text>
+              </controlProperties>
+            </control>
+            <control controlID="9" controlTypeID="com.balsamiq.mockups::Icon" x="11" y="161" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="8" locked="false" isInGroup="24">
+              <controlProperties>
+                <icon>StopIcon%7Clarge</icon>
+              </controlProperties>
+            </control>
+            <control controlID="10" controlTypeID="com.balsamiq.mockups::SubTitle" x="397" y="158" w="202" h="-1" measuredW="201" measuredH="56" zOrder="9" locked="false" isInGroup="24">
+              <controlProperties>
+                <text>%5BQuality%20Assurance%5Crand%20Testing%5D</text>
+              </controlProperties>
+            </control>
+            <control controlID="11" controlTypeID="com.balsamiq.mockups::Paragraph" x="326" y="223" w="258" h="49" measuredW="200" measuredH="80" zOrder="10" locked="false" isInGroup="24">
+              <controlProperties>
+                <text>Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.</text>
+              </controlProperties>
+            </control>
+            <control controlID="12" controlTypeID="com.balsamiq.mockups::Icon" x="337" y="161" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="11" locked="false" isInGroup="24">
+              <controlProperties>
+                <icon>StopIcon%7Clarge</icon>
+              </controlProperties>
+            </control>
+            <control controlID="13" controlTypeID="com.balsamiq.mockups::SubTitle" x="74" y="315" w="184" h="-1" measuredW="141" measuredH="56" zOrder="12" locked="false" isInGroup="24">
+              <controlProperties>
+                <text>%5BMaintenance%5Crand%20Support%5D</text>
+              </controlProperties>
+            </control>
+            <control controlID="14" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="380" w="258" h="49" measuredW="200" measuredH="80" zOrder="13" locked="false" isInGroup="24">
+              <controlProperties>
+                <text>Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt.</text>
+              </controlProperties>
+            </control>
+            <control controlID="15" controlTypeID="com.balsamiq.mockups::Icon" x="11" y="318" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="14" locked="false" isInGroup="24">
+              <controlProperties>
+                <icon>StopIcon%7Clarge</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
