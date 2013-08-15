@@ -13,6 +13,5 @@ Feature: admin user removes a blog post
 		And I click "Delete Post" button
     And I confirm popup
 		Then I should see "Cucumber Post was successfully deleted."
-    And I should not see "Cucumber Post"
 		And I should not see "Cucumber Post Content"
 		And a post titled "Cucumber Post" does not exist

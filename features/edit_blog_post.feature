@@ -13,9 +13,8 @@ Feature: admin user edits a blog post
     And I fill in "post_title" with "New Cucumber Post"
     And I fill in "post_content" with "New Cucumber Post Content"
     And I click "Submit" button
-		Then I should be redirected to the "New Cucumber Post" post
-    And I should see "New Cucumber Post"
+    Then I should see "New Cucumber Post"
 		And I should see "New Cucumber Post Content"
-    And I should see "Post successfully updated!"
+    And I should see "Post was successfully updated!"
 		And a post titled "New Cucumber Post" exists
 		And a post titled "Cucumber Post" does not exist

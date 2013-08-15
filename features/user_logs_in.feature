@@ -9,8 +9,8 @@ Feature: an user logs in
     And I am an admin user
 		When I click "Admin" link
 		And I should see "Log In"
-		And I fill in "user_email" with "cucumber.admin@gmail.com"
-		And I fill in "user_password" with "admin"
+		And I fill in "email" with "cucumber.admin@gmail.com"
+		And I fill in "password" with "admin"
 		And I click "Submit" button
 		Then I should see "Successfully Logged In"
 		And I should see "cucumber.admin@gmail.com - Log Out"

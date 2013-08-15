@@ -3,7 +3,7 @@ Given /^I am on the blog page$/ do
 end
 
 Given /^I have a post titled "([^"]*)"$/ do |title|
-  Post.create( title: title, content: title << ' Content', user_id: @admin.id )
+  Post.create( title: title, content: title + ' Content', user_id: @admin.id )
 end
 
 When /^visit the blog page$/ do

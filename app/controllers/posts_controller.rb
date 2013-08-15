@@ -6,7 +6,8 @@ class PostsController < ApplicationController
   def create
     @post = Post.new(params[:post])
     if @post.save
-      redirect_to @post, flash[:success] => 'Post was Successfully created!'
+      flash[:success] = 'Post was successfully created!'
+      redirect_to @post
     else
       render 'new'
     end
@@ -38,9 +39,11 @@ class PostsController < ApplicationController
   def destroy
     @post = Post.find(params[:id])
     if @post.destroy
-      redirect_to posts_url, flash[:success] => "#{@post.title} was successfully deleted."
+      flash[:success] = "#{@post.title} was successfully deleted."
+      redirect_to posts_url
     else
-      redirect_to @post, flash[:error] => 'Failed to delete post.'
+      flash[:error] = 'Failed to delete post.'
+      redirect_to @post 
     end
   end
 end

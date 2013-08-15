@@ -28,7 +28,7 @@ Web24studios::Application.routes.draw do
   match 'blog' => 'posts#index'
 
   get '/admin'    => 'sessions#new'
-  get '/log-out'  => 'sessions#destroy'
+  get '/log-out'  => 'sessions#destroy', as: 'log_out'
 
   resources :users
   resources :sessions
