@@ -35,6 +35,7 @@ group :test do
   gem 'rspec-rails'
   gem 'spork'
   gem 'selenium-webdriver'
+  gem 'webrat'
 end
 
 group :production do

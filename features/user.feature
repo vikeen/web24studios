@@ -1,8 +1,8 @@
-Feature: an user logs in
+Feature: user management
 
-  As an user
-  I want to be able to log in
-  So that I can complete my jobs
+  In order to provide secure data and a positive experience
+  As a developer
+  I need to ensure user management operations work
 
   Scenario: user logs in
     Given I am on the home page

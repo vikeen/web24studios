@@ -9,6 +9,9 @@
     = f.label :title
     = f.text_field :title
   .field
+    = f.label :author
+    = f.select :user_id, User.all.collect {|u| [ "#{u.first_name} #{u.last_name}" , u.id ] }
+  .field
     = f.label :content
     = f.text_area :content
   .actions
