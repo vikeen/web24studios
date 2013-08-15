@@ -1,0 +1,109 @@
+Home
+  Company Slogan or Selling Point Text
+    Intro Text
+  Web Application Development
+    Pitch Summary
+  Web Design and Development
+    Pitch Summary
+  Portfolio Tag Line Text
+    Intro Text
+  Recent Blog Article Tag Line Text
+    Intro Text
+
+Company
+  Overview
+    Intro Text
+    About Us text
+    What We Do Text
+    Meet the Team
+      [For Each] Member
+        Name Text
+        Job Text
+        Brief Bio
+
+  Our Business Philosophies
+    Intro Text
+    Maximum Value Text
+    Identification Text
+    Partnership Text
+    Trusting Relationship Text
+
+  Why Us
+    Intro Text
+    One Stop Web Solution
+      Intro Text
+    Full-cycle Development Services
+      Intro Text
+    Black Box Approach
+      Intro Text
+    Forward to Services Text
+
+Services
+  Web Application Development
+    Intro Text
+    Intro Image
+    Functional and Robust Description
+    Intelligent Application Architecture Description
+    Reduced Maintenance Costs Description
+    Simple Production Deployment Description
+    Forward to Contact Text
+
+  Web Design and Development
+    Intro Text
+    Intro Image
+    Look-and-Feel
+    Usability
+    Front-end Functionality
+    Administrative Needs
+    Forward to Contact Text
+
+  Usability and User Interface
+    Intro Text
+    Intro Image
+    Focal Points
+      Effectiveness Text
+      Visibility Text
+      Consistency Text
+    Prototyping
+      Sitemaps Text
+      Mockups Text
+      Wireframes Text
+    Forward to Contact Text
+
+  Quality Assurance and Testing
+    Intro Text
+    Intro Image
+    Development Integrated Testing
+      Business Driven Development Text
+      Test Driven Development Text
+    Optimization Through Testing
+      Accessibility Testing Text
+      Compatibility Testing Text
+      Performance Testing Text
+    Forward to Contact Text
+
+  Maintenance and Support
+    Intro Text
+    Intro Image
+    On-going Support
+      Bug Fixing Text
+      Problem Analysis and Resolution Text
+      Excellent Email Support Text
+    Adaptive Enhancements Text
+    Forward to Contact Text
+
+Portfolio
+  Recent Work Text
+    Intro Text
+
+Contact
+  Contact Form
+    Intro Text
+  Contact Info
+    Social Media Icons
+      Twitter
+      Google Plus
+      Facebook
+
+Blog
+  Intro Text

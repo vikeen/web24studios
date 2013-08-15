@@ -1,4 +1,10 @@
 Web24studios::Application.routes.draw do
+  get "sessions/new"
+
+  get "sessions/destry"
+
+  get "sessions/create"
+
   root to: 'static_pages#home'
 
   match '/services' => 'static_pages#services'
