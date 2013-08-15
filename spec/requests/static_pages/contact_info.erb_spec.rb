@@ -1,2 +1,0 @@
-= provide :title, :Contact
-%h2 Contact Information

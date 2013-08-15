@@ -8,19 +8,4 @@ describe SessionsController do
       response.should be_success
     end
   end
-
-  describe "GET 'destry'" do
-    it "returns http success" do
-      get 'destry'
-      response.should be_success
-    end
-  end
-
-  describe "GET 'create'" do
-    it "returns http success" do
-      get 'create'
-      response.should be_success
-    end
-  end
-
 end
