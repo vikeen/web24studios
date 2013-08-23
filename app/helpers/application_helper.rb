@@ -13,5 +13,12 @@ module ApplicationHelper
   # give the ability to find a sessioned user across the application
   def current_user
     @current_user ||= User.find(session[:user_id]) if session[:user_id]
+    @current_user.admin ||= 0   # just a safety precaution
+  end
+
+  def current_user_is_admin
+    if current_user
+      @current_user.admin
+    end
   end
 end

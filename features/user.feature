@@ -4,13 +4,8 @@ Feature: user management
   As a developer
   I need to ensure user management operations work
 
-  Scenario: user logs in
-    Given I am on the home page
-    And I am an admin user
-		When I click "Admin" link
-		And I should see "Log In"
-		And I fill in "email" with "cucumber.admin@gmail.com"
-		And I fill in "password" with "admin"
-		And I click "Submit" button
-		Then I should see "Successfully Logged In"
-		And I should see "cucumber.admin@gmail.com - Log Out"
+  Scenario: log in and out
+    Given I am signed in as a user with the following attributes:
+      | email                    | first_name | last_name | password | admin |
+      | cucumber.admin@gmail.com | cucumber   | admin     | admin    | 1     |
+    Then I log out

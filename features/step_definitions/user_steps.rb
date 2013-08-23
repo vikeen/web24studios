@@ -11,3 +11,7 @@ Given /^I am signed in as a user with the following attributes:$/ do |table|
     step %{I should see "#{@user.email} - Log Out"}
   end
 end
+
+Then /^I log out$/ do
+  step %{I click "Log Out" link}
+end

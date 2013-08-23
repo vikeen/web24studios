@@ -3,6 +3,6 @@
     %ul
       %li #{link_to :Blog, posts_path}
       - if current_user
-        %li #{current_user.email} - #{link_to 'Log Out', log_out_path}
+        %li #{@current_user.email} - #{link_to 'Log Out', log_out_path}
       - else
-        %li #{link_to :Admin, new_session_path}
+        %li #{link_to :Admin, admin_path}

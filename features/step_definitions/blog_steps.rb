@@ -16,6 +16,7 @@ When /^I create a post with the following attributes:$/ do |table|
                        content: attributes['content'],
                        user_id: User.find_by_email(attributes['author']).id })
 
+    step %{I am on the blog page}
     step %{I click "Add New Post" button}
     step %{I should see "Add New Post"}
     step %{I fill in "post_title" with "#{@post.title}"}

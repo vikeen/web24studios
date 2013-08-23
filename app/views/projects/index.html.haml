@@ -1,0 +1,9 @@
+%h1 Portfolio
+- @projects.each do |project|
+  .project
+    %h2 #{link_to project.title, project}
+    = button_to :www, project.www, method: :get
+    = button_to :summary, project, method: :get
+
+- if current_user_is_admin
+  = button_to 'Add New Project', new_project_path, method: :get

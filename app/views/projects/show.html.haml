@@ -1,0 +1,10 @@
+%h2 #{@project.title}
+%p #{@project.client}
+%p #{@project.summary}
+
+= link_to :www, @project.www
+
+= button_to 'Portfolio', projects_path, method: :get
+- if current_user_is_admin
+  = button_to 'Edit Project', edit_project_path(@project), { method: :get }
+  = button_to 'Delete Project', @project, { method: :delete, data: { confirm: "Delete: #{@project.title}?" } }

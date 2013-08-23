@@ -1,11 +1,7 @@
 Web24studios::Application.routes.draw do
-  get "sessions/new"
-
-  get "sessions/destry"
-
-  get "sessions/create"
-
   root to: 'static_pages#home'
+
+  #resources :users
 
   match '/services' => 'static_pages#services'
   match '/services/web-application-development'    => 'static_pages#services_web_application_development'
@@ -19,7 +15,8 @@ Web24studios::Application.routes.draw do
   match '/company/business-philosophies' => 'static_pages#company_business_philosophies'
   match '/company/why-us'                => 'static_pages#company_why_us'
 
-  #match 'portfolio' => ''
+  resources :projects
+  match '/portfolio' => 'projects#index'
 
   match '/contact'      => 'static_pages#contact_form'
   match '/contact/info' => 'static_pages#contact_info'
@@ -27,11 +24,9 @@ Web24studios::Application.routes.draw do
   resources :posts
   match 'blog' => 'posts#index'
 
+  resources :sessions
   get '/admin'    => 'sessions#new'
   get '/log-out'  => 'sessions#destroy', as: 'log_out'
-
-  resources :users
-  resources :sessions
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

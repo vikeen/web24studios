@@ -8,7 +8,6 @@ Feature: manage the blog
     Given I am signed in as a user with the following attributes:
       | email                    | first_name | last_name | password | admin |
       | cucumber.admin@gmail.com | cucumber   | admin     | admin    | 1     |
-    And I am on the blog page
     And I create a post with the following attributes:
       | title    | content    | author                   |
       | My Title | My Content | cucumber.admin@gmail.com |

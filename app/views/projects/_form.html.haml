@@ -1,0 +1,27 @@
+= form_for(@project) do |f|
+  - if @project.errors.any?
+    #error_explanation
+      %h2 #{pluralize(@project.errors.count, :error)} prohibited this project from being saved:
+      %ul
+        - @project.errors.full_messages.each do |msg|
+          %li #{msg}
+  .field
+    = f.label :www
+    = f.text_field :www
+  .field
+    = f.label :title
+    = f.text_field :title
+  .field
+    = f.label :client
+    = f.text_field :client
+  .field
+    = f.label :summary
+    = f.text_area :summary
+  .field
+    = f.label :published
+    = f.select :published, options_for_select([['Yes', 'Y'], ['No', 'N'] ])
+  .field
+    = f.label :showcase
+    = f.select :showcase, options_for_select([['Yes', 'Y'], ['No', 'N'] ])
+  .actions
+    = f.submit :Submit
