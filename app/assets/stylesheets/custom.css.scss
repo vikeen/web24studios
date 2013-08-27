@@ -5,8 +5,16 @@ body {
   padding: 40px 35px 0
 }
 
-input[type='submit'] {
-  @extend .btn;
+#main {
+  margin-left: 40px;
+}
+
+#content {
+  float: left;
+}
+
+.side-navigation {
+  float: right;
 }
 
 /* Header */
@@ -16,3 +24,21 @@ input[type='submit'] {
     width: 80%;
   }
 }
+
+/* Footer */
+footer {
+  margin-top: 35px;
+  .non-link {
+    margin-top: 9px;
+  }
+}
+
+/* Forms */
+.form-actions {
+  background: none;
+}
+
+input[type='submit'] {
+  @extend .btn;
+}
+

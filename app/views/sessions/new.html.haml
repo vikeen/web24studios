@@ -1,10 +1,15 @@
-%h2 Log In
-= form_tag sessions_path do
-  .field
-    = label_tag :email
-    = text_field_tag :email, params[:email]
-  .field
-    = label_tag :password
-    = password_field_tag :password
-  .actions
-    = submit_tag :Submit
+= form_tag sessions_path, { id: "login-form", class: "form form-horizontal span6 offset3" } do
+  %fieldset
+    %legend Log In
+    .control-group
+      .control-label
+        = label_tag :email
+      .controls
+        = text_field_tag :email, params[:email]
+    .control-group
+      .control-label
+        = label_tag :password
+      .controls
+        = password_field_tag :password
+    .form-actions
+      = submit_tag :Submit

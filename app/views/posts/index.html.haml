@@ -1,7 +1,10 @@
-%h1 Blog
+.span12
+  %h1 Blog
 - @posts.each do |post|
-  .post
+  .span12.post
     %h2.post-title #{ link_to post.title, post }
     .post-content #{post.content}
 
-= button_to 'Add New Post', new_post_path, { method: :get }
+- if current_user
+  .span12
+    = button_to 'Add New Post', new_post_path, { method: :get }
