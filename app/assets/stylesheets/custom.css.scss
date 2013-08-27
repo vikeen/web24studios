@@ -1,1 +1,18 @@
 @import "bootstrap";
+
+/* Global */
+body {
+  padding: 40px 35px 0
+}
+
+input[type='submit'] {
+  @extend .btn;
+}
+
+/* Header */
+#search {
+  #query {
+    @extend .search-query;
+    width: 80%;
+  }
+}

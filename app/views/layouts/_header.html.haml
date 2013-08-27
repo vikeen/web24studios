@@ -1,7 +1,18 @@
-%header
-  %h1#logo
-    = link_to 'Web24Studios', root_path
-  %nav
-    %ul
-      %li #{ link_to :Services, services_path }
-      %li #{ link_to :Contact, contact_path }
+%header.row
+  %h1#logo.span9
+    = link_to :Web24Studios, root_path
+  .span3
+    #search.row
+      = form_tag( '/test', method: :get)
+      .span2
+        = text_field_tag :query
+      .span1
+        = submit_tag :Search
+  %nav.span12.navbar
+    .navbar-inner
+      %ul.nav
+        %li.dropdown.dropdown-toggle
+          = link_to :Company, company_overview_path
+        %li.dropdown #{ link_to :Services, services_path }
+        %li #{ link_to :Portfolio, portfolio_path }
+        %li #{ link_to :Contact, contact_path }

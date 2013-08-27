@@ -4,16 +4,15 @@ Web24studios::Application.routes.draw do
   #resources :users
 
   match '/services' => 'static_pages#services'
-  match '/services/web-application-development'    => 'static_pages#services_web_application_development'
-  match '/services/website-design-and-development' => 'static_pages#services_website_design_and_development'
-  match '/services/usability-and-user-interface'   => 'static_pages#services_usability_and_user_interface'
-  match '/services/quality-assurance-and-testing'  => 'static_pages#services_quality_assurance_and_testing'
-  match '/services/maintenance-and-support'        => 'static_pages#services_maintenance_and_support'
+  match '/services/web_application_development'    => 'static_pages#services_web_application_development'
+  match '/services/website_design_and_development' => 'static_pages#services_website_design_and_development'
+  match '/services/usability_and_user_interface'   => 'static_pages#services_usability_and_user_interface'
+  match '/services/quality_assurance_and_testing'  => 'static_pages#services_quality_assurance_and_testing'
+  match '/services/maintenance_and_support'        => 'static_pages#services_maintenance_and_support'
 
-  match '/company'                       => 'static_pages#company_overview'
   match '/company/overview'              => 'static_pages#company_overview'
-  match '/company/business-philosophies' => 'static_pages#company_business_philosophies'
-  match '/company/why-us'                => 'static_pages#company_why_us'
+  match '/company/business_philosophies' => 'static_pages#company_business_philosophies'
+  match '/company/why_us'                => 'static_pages#company_why_us'
 
   resources :projects
   match '/portfolio' => 'projects#index'
@@ -26,7 +25,7 @@ Web24studios::Application.routes.draw do
 
   resources :sessions
   get '/admin'    => 'sessions#new'
-  get '/log-out'  => 'sessions#destroy', as: 'log_out'
+  get '/log_out'  => 'sessions#destroy'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

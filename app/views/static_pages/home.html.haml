@@ -1,5 +1,32 @@
-%h1 Slogan Goes Here
-%h2 #{link_to 'Web Application Development', '/web-application-development'}
-%h2 #{link_to 'Web Design and Development', '/web-design-and-development'}
-%h2 #{link_to 'Portfolio Slogan', projects_path}
-%h2 #{link_to 'Blog Slogan', posts_path}
+.span10.offset1
+  %h1 Efficient Development. Effective Solutions
+  %p.lead We provide quality web solutions to enable your business needs. Built behind a industry standard usability and testing framework Web24Studios delivers an effective solution for every client - no matter the project complexicity.
+.span6
+  .row
+    .span1
+      = image_tag 'rails.png'
+    .span5
+      %h2 #{link_to 'Web Application Development', services_web_application_development_path}
+    .span6
+      %p Robust applications are the foundation of an effective business model. Web Applications enable the full potential of your market strategy. through precise, high data traffic.
+.span6
+  .row
+    .span1
+      = image_tag 'rails.png'
+    .span5
+      %h2 #{link_to 'Web Design and Development', services_website_design_and_development_path}
+    .span6
+      %p Visually appealling and a structurally sound coding architecture combine to deliver your exact design or marketing needs.
+.span12
+  %h2 #{link_to 'Our Recent Work', projects_path}
+  .row
+    .span3
+      = image_tag 'rails.png'
+    .span3
+      = image_tag 'rails.png'
+    .span3
+      = image_tag 'rails.png'
+.span12
+  %h2 #{link_to 'Our Blog', posts_path}
+  - Post.find(:all, :order => "created_at desc", :limit => 3).each do |post|
+    %p #{post.created_at} - #{link_to post.title, post}
