@@ -1,9 +1,13 @@
 %h1 Portfolio
-- @projects.each do |project|
+.showcase
+  - @showcased_projects.each do |showcased_project|
+    .project
+      / todo add some images here or something for the project
+- @published_projects.each do |published_project|
   .project
-    %h2 #{link_to project.title, project}
-    = button_to :www, project.www, method: :get
-    = button_to :summary, project, method: :get
+    %h2 #{link_to published_project.title, published_project}
+    = button_to :www, published_project.www, method: :get
+    = button_to :summary, published_project, method: :get
 
 - if current_user_is_admin
   = button_to 'Add New Project', new_project_path, method: :get

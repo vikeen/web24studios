@@ -46,9 +46,8 @@ When /^I edit the portfolio project with the following attributes:$/ do |table|
 end
 
 When /^I unpublish a portfolio project titled "([^"])*"$/ do |title|
-  step %{I should see "#{title}"}
-  #@project = Project.find_by_title(title)
-  #@project.published = 'N'
+  @project = Project.find_by_title(title)
+  @project.update_attributes( published: :N )
 end
 
 Then /^a public user cannot view this portfolio project$/ do
@@ -56,6 +55,7 @@ Then /^a public user cannot view this portfolio project$/ do
   step %{I am on the portfolio page}
   step %{I should not see "#{@project.title}"}
   visit @project                               # this should redirect to the portfolio page via controller
+  step %{show me the page}
   step %{I should see "Portfolio"}
 end
 

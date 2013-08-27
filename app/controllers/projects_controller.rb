@@ -1,10 +1,14 @@
 class ProjectsController < ApplicationController
   def index
-    @projects = Project.all
+    @showcased_projects = Project.where(showcase: :Y, published: :Y)
+    @published_projects = Project.where(showcase: :N, published: :Y)
   end
 
   def show
     @project = Project.find(params[:id])
+    if @project.published != :Y
+      redirect_to projects_path
+    end
   end
 
   def new
