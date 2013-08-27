@@ -8,7 +8,7 @@ Given /^I am signed in as a user with the following attributes:$/ do |table|
     step %{I fill in "password" with "#{@user.password}"}
     step %{I click "Submit" button}
     step %{I should see "Successfully Logged In"}
-    step %{I should see "#{@user.email} - Log Out"}
+    step %{I should see "#{@user.email} Log Out"}
   end
 end
 
