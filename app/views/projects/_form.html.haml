@@ -1,27 +1,41 @@
-= form_for(@project) do |f|
-  - if @project.errors.any?
-    #error_explanation
-      %h2 #{pluralize(@project.errors.count, :error)} prohibited this project from being saved:
-      %ul
-        - @project.errors.full_messages.each do |msg|
-          %li #{msg}
-  .field
-    = f.label :www
-    = f.text_field :www
-  .field
-    = f.label :title
-    = f.text_field :title
-  .field
-    = f.label :client
-    = f.text_field :client
-  .field
-    = f.label :summary
-    = f.text_area :summary
-  .field
-    = f.label :published
-    = f.select :published, options_for_select([['Yes', 'Y'], ['No', 'N'] ])
-  .field
-    = f.label :showcase
-    = f.select :showcase, options_for_select([['Yes', 'Y'], ['No', 'N'] ])
-  .actions
-    = f.submit :Submit
+= form_for(@project, { class: "form form-horizontal span6 offset3" } ) do |f|
+  %fieldset
+    %legend #{yield(:form_legend)}
+    - if @project.errors.any?
+      #error_explanation
+        %h2 #{pluralize(@project.errors.count, :error)} prohibited this project from being saved:
+        %ul
+          - @project.errors.full_messages.each do |msg|
+            %li #{msg}
+    .control-group
+      .control-label
+        = f.label :www
+      .controls
+        = f.text_field :www
+    .control-group
+      .control-label
+        = f.label :title
+      .controls
+        = f.text_field :title
+    .control-group
+      .control-label
+        = f.label :client
+      .controls
+        = f.text_field :client
+    .control-group
+      .control-label
+        = f.label :summary
+      .controls
+        = f.text_area :summary
+    .control-group
+      .control-label
+        = f.label :published
+      .controls
+        = f.select :published, options_for_select([['Yes', 'Y'], ['No', 'N'] ])
+    .control-group
+      .control-label
+        = f.label :showcase
+      .controls
+        = f.select :showcase, options_for_select([['Yes', 'Y'], ['No', 'N'] ])
+    .form-actions
+      = f.submit :Submit

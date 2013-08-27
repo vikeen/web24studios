@@ -1,10 +1,7 @@
-.span12
-  %h1 #{@post.title}
-.span12
-  %p Author: #{@post.user_id}
-.span12
-  = @post.content
+%h1 #{@post.title}
+%p Author: #{@post.user_id}
+= @post.content
 
-- if current_user
+- if current_user_is_admin
   = button_to 'Edit Post', edit_post_path(@post), { method: :get }
   = button_to 'Delete Post', @post, { method: :delete, data: { confirm: "Delete: #{@post.title}?" } }

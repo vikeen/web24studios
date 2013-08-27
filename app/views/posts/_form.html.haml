@@ -1,18 +1,26 @@
-= form_for(@post) do |f|
-  - if @post.errors.any?
-    #error_explanation
-      %h2 #{pluralize(@post.errors.count, "error")} prohibited this post from being saved:
-      %ul
-        - @post.errors.full_messages.each do |msg|
-          %li #{msg}
-  .field
-    = f.label :title
-    = f.text_field :title
-  .field
-    = f.label :author
-    = f.select :user_id, User.all.collect {|u| [ "#{u.first_name} #{u.last_name}" , u.id ] }
-  .field
-    = f.label :content
-    = f.text_area :content
-  .actions
-    = f.submit 'Submit'
+= form_for(@post, { class: "form form-horizontal span6 offset3" } ) do |f|
+  %fieldset
+    %legend #{yield(:form_legend}
+    - if @post.errors.any?
+      #error_explanation
+        %h2 #{pluralize(@post.errors.count, "error")} prohibited this post from being saved:
+        %ul
+          - @post.errors.full_messages.each do |msg|
+            %li #{msg}
+    .control-group
+      .control-label
+        = f.label :title
+      .controls
+        = f.text_field :title
+    .control-group
+      .control-label
+        = f.label :author
+      .controls
+        = f.select :user_id, User.all.collect {|u| [ "#{u.first_name} #{u.last_name}" , u.id ] }
+    .control-group
+      .control-label
+        = f.label :content
+      .controls
+        = f.text_area :content
+    .form-actions
+      = f.submit 'Submit'
